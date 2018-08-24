@@ -1,0 +1,18 @@
+<html>
+
+<head>
+	<script src="pages/index/script.js"></script>
+</head>
+
+<body>
+	<div id="items">
+		{{#items}}
+		<div id="{{id}}" timestamp="{{timestamp}}">{{text}}</div>
+		{{/items}}
+	</div>
+	<div id="input">
+		<input type="text" id="text">
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+module.exports = { save: "save", del: "del", getAll: "getAll" };
